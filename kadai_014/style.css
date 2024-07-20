@@ -2,7 +2,7 @@
   font-size: 20px;
  }
  
- p {
+ body{
     font-family: "Arial", "Meiryo", sans-serif;
     text-align:center;
   }
@@ -27,7 +27,7 @@ h2{
 }
 
 /*太文字*/
-.decoration {
+.grandchild {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
