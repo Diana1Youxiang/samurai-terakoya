@@ -27,7 +27,7 @@ h2{
 }
 
 /*太文字*/
-.grandchild {
+#parent > p {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
