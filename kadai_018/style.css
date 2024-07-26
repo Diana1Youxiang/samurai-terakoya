@@ -12,7 +12,8 @@
   width: 800px;
   background-color:  #dcc9f4;
   align-items: center;
-  margin: 20px;
+  margin-left:  300px;
+  margin-right: 300px;
 }
 .top-child{
   width:20% ;
@@ -24,6 +25,7 @@
   width:800px ;
   height:800px ;
   margin:20px;
+  margin-left: 300px;
   background-color: #ffd9df;
 }
 #middle > div{
@@ -52,6 +54,7 @@
   width:800px ;
   height:300px ;
   left: 20px;
+  margin-left: 280px;
   background-color: #87ceeb;
 }
 #bottom > div{
