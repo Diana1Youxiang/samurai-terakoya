@@ -14,7 +14,11 @@
   align-items: center;
   margin-left:  300px;
   margin-right: 300px;
+  
+/*  上下に20pxの余白を入れて、画面の中央に配置します。(Step3)*/
   margin-top: 20px;
+  margin-bottom: 20PX;
+
 }
 .top-child{
   width:20% ;
