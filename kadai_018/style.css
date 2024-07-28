@@ -1,23 +1,13 @@
- html{
-  font-size: 20px;
-  width: 20px;
- }
- 
- body{
-    font-family: "Arial", "Meiryo", sans-serif;
-    text-align:center;
-  }
+
 
 #top{
   width: 800px;
   background-color:  #dcc9f4;
+
+ /*  上下に20pxの余白を入れて、画面の中央に配置します。(Step3)*/
+  margin: 20px auto; 
   align-items: center;
-  margin-left:  300px;
-  margin-right: 300px;
-  
-/*  上下に20pxの余白を入れて、画面の中央に配置します。(Step3)*/
-  margin-top: 20px;
-  margin-bottom: 20PX;
+  text-align: center;
 
 }
 .top-child{
@@ -29,8 +19,8 @@
   position: relative;
   width:800px ;
   height:800px ;
-  margin:20px;
-  margin-left: 300px;
+  margin:20px auto;/**/
+
   background-color: #ffd9df;
 }
 #middle > div{
@@ -58,10 +48,7 @@
   position: relative;
   width:800px ;
   height:300px ;
-  left: 20px;
-  margin-left: 280px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   background-color: #87ceeb;
 }
 #bottom > div{
