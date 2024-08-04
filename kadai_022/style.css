@@ -27,9 +27,10 @@ div p:nth-of-type(2)::first-letter{
   color: rgb(97, 206, 249);
 }
 
-image{
+.responsive{
   margin: 10px 0px 10px 0px;
-  width: 70px;
+  width: 70%;
+  
 }
 
 body{
@@ -53,7 +54,8 @@ main{
 .contents{
   border: solid 3px;
   border-color:  rgb(238, 204, 204) ;
-  align-items: center;
+  align-items: center;/*縦方向＋flexボックスとセット*/
+  text-align: center;/**/
   flex-basis: 25%;
   padding: 10PX 15PX 10PX 15PX;
   margin: 20px 0px 20px 0px;
