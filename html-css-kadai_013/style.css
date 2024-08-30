@@ -13,9 +13,9 @@ p {
 }
 
 /*================
-PC用のスタイル 
+PC用のスタイル 768px以下
 =================*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -23,7 +23,8 @@ PC用のスタイル
     margin: 0 auto 0 auto;
   }
 /*スマホナビ非表示*/
-  #menu-sp{
+
+#menu-sp{
     display: none;
   }
   #nav-sp{
@@ -68,24 +69,23 @@ PC用のスタイル
 
 }
 /*================
-スマホ用のスタイル 
+スマホ用のスタイル 767px以上 
 =================*/
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 767px) {
   /* PC用ナビゲーション非表示 */
-  #nav-pc {
-    display: none;
-  }
   body{
+    min-width: 375px;
     margin: 0;
 }
+#nav-pc{display: none;}
+ 
  /* ハンバーガーメニュー */
  #menu-sp {
-  display: block;
     float: right;
     padding: 0;
  }
  /* スマホ用ナビゲーションの表示切替*/
-    /* 初期状態、レイアウトと非表示設定 */
+    /* 初期状態、レイアウトと非表示設定*/ 
  #nav-sp{
     background-color: #ce933e;
     position: absolute;
@@ -99,35 +99,34 @@ PC用のスタイル
 #nav-sp nav ul{
     padding-left: 0;
 }
-#nav-sp nav ul{
-  padding-left: 0;
-}
 #nav-sp nav li{
  list-style: none; 
 }
 
 #close{
   position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 #logo-sp{
   margin: 80px 0px 30px 20px;
 }
 
-#nav-sp nav a{
+#nav-sp a{
   display: block;
 }
-#nav-sp nav a:link/*a:link */{
+#nav-sp a:link/*a:link */{
 color: #fff;
 }
-#nav-sp nav a:visited/*a:visited */{
+#nav-sp a:visited/*a:visited*/{
   color: #fff;
   }
-#nav-sp nav a:hover/*a:hover タップしたとき*/{
+#nav-sp a:hover/*a:hover タップしたとき*/{
   color: #fff;
   text-decoration: underline;
   }
-#nav-sp nav a:active/*a:active */{
+#nav-sp a:active/*a:active */{
   color: #fff;
   }  
 #nav-sp .menu{
