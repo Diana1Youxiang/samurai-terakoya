@@ -12,18 +12,7 @@ p {
   width: 100%;
 }
 
-/*================
-PC用のスタイル 768px以下
-=================*/
-@media screen and (max-width: 768px) {
-  /* 横幅設定 */
-  body {
-    max-width: 1080px;
-    min-width: 960px;
-    margin: 0 auto 0 auto;
-  }
 /*スマホナビ非表示*/
-
 #menu-sp{
     display: none;
   }
@@ -66,12 +55,10 @@ PC用のスタイル 768px以下
     color: #0d0d0d;
   }
 
-
-}
 /*================
-スマホ用のスタイル 767px以上 
+スマホ用のスタイル 767px以下 
 =================*/
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   /* PC用ナビゲーション非表示 */
   body{
     min-width: 375px;
@@ -97,7 +84,7 @@ PC用のスタイル 768px以下
     z-index: 100;
   }
 #nav-sp nav ul{
-    padding-left: 0;
+ padding-left: 0;
 }
 #nav-sp nav li{
  list-style: none; 
